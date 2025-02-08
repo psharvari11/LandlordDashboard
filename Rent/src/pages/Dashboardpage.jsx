@@ -10,7 +10,7 @@ const Dashboardpage = () => {
   const [maintenanceRequests, setMaintenanceRequests] = useState(0);
   const [loading, setLoading] = useState(true);
 
-  const API_URL = "https://landlord-6aad9-default-rtdb.asia-southeast1.firebasedatabase.app/Properties.json";
+  const API_URL = "https://rent-bc133-default-rtdb.asia-southeast1.firebasedatabase.app/Landlorddb/properties.json";
 
   useEffect(() => {
     const fetchDashboardData = async () => {
